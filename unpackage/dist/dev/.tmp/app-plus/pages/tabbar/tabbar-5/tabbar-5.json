@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "navbar": "/components/you-to-be-nav-bar/you-to-be-nav-bar",
+    "ytbpages": "/components/YTB-pages"
+  }
+}

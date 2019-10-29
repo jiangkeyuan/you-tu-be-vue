@@ -1,0 +1,71 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/tabbar-1/tabbar-1",
+			"style": {
+				"navigationBarTextStyle":"black"
+			}
+		},
+		{
+			"path": "pages/tabbar/tabbar-2/tabbar-2",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar/tabbar-3/tabbar3",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar/tabbar-4/tabbar-4",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar/tabbar-5/tabbar-5",
+			"style": {}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#000000",
+		"backgroundColor": "#000000",
+		"navigationStyle":"custom"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#fff",
+		"color": "#C0C0C0",
+		"selectedColor": "#f33e54",
+		"list": [{
+				"pagePath": "pages/tabbar/tabbar-1/tabbar-1",
+				"iconPath": "static/img/tabbar/home.png",
+				"selectedIconPath": "static/img/tabbar/homeactive.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabbar/tabbar-2/tabbar-2",
+				"iconPath": "static/img/tabbar/火.png",
+				"selectedIconPath": "static/img/tabbar/火(1).png",
+				"text": "时下流行"
+			},
+			{
+				"pagePath": "pages/tabbar/tabbar-3/tabbar3",
+				"iconPath": "static/img/tabbar/订阅内容.png",
+				"selectedIconPath": "static/img/tabbar/订阅内容(1).png",
+				"text": "订阅内容"
+			},
+			{
+				"pagePath": "pages/tabbar/tabbar-4/tabbar-4",
+				"iconPath": "static/img/tabbar/信息.png",
+				"selectedIconPath": "static/img/tabbar/信息(1).png",
+				"text": "收件箱"
+			},
+			{
+				"pagePath": "pages/tabbar/tabbar-5/tabbar-5",
+				"iconPath": "static/img/tabbar/文件.png",
+				"selectedIconPath": "static/img/tabbar/文件(1).png",
+				"text": "媒体库"
+			}
+		]
+	}
+}

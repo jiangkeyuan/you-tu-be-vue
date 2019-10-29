@@ -1,0 +1,1 @@
+<view><navbar vue-id="1" bind:__l="__l"></navbar><ytbpages vue-id="2" bind:__l="__l" vue-slots="{{['default']}}">1313</ytbpages></view>
